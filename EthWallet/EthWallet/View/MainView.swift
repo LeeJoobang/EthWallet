@@ -9,6 +9,7 @@ import UIKit
 import SnapKit
 
 class MainView: UIView {
+        
     let createWalletButton: UIButton = {
         let button = UIButton()
         button.setTitle("신규 지갑 생성", for: .normal)
@@ -35,7 +36,7 @@ class MainView: UIView {
     func setUI() {
         addSubview(createWalletButton)
         addSubview(restoreWalletButton)
-
+        
         createWalletButton.snp.makeConstraints { (make) in
             make.centerX.equalToSuperview()
             make.centerY.equalToSuperview().offset(-30)
@@ -50,4 +51,5 @@ class MainView: UIView {
             make.height.equalTo(createWalletButton)
         }
     }
+    
 }

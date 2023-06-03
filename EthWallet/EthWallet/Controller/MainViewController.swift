@@ -9,19 +9,29 @@ import UIKit
 import SnapKit
 
 class MainViewController: UIViewController {
+        
+    let mainView = MainView()
     
-    let mainview = MainView()
-
     override func viewDidLoad() {
         super.viewDidLoad()
+        mainView.backgroundColor = .white
         setUI()
+        mainView.createWalletButton.addTarget(self, action: #selector(createButtonTapped), for: .touchUpInside)
+
     }
     
     func setUI(){
-        view.addSubview(mainview)
-        mainview.snp.makeConstraints { make in
+        view.addSubview(mainView)
+        mainView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
         }
     }
+    
+    @objc func createButtonTapped(){
+        let privateKeyVC = PrivateKeyViewController()
+        self.navigationController?.pushViewController(privateKeyVC, animated: true)
+        print("hi")
+    }
+    
 }
 
