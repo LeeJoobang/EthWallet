@@ -15,6 +15,7 @@ class PrivateKeyViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         privateKeyView.backgroundColor = .white
+        self.navigationItem.hidesBackButton = true
         setUI()
         privateKeyView.privateKeyLabel.text = "생성된 비공개 키 표시"
         privateKeyView.nextButton.addTarget(self, action: #selector(nextButtonTapped), for: .touchUpInside)
