@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB354FE22A2CC2F3000915CE /* MnemonicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB354FE12A2CC2F3000915CE /* MnemonicViewController.swift */; };
+		EB354FE42A2CC348000915CE /* MnemonicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB354FE32A2CC348000915CE /* MnemonicView.swift */; };
 		EB832D852A2B62990043687E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EB832D842A2B62990043687E /* SnapKit */; };
 		EB832D872A2B62C60043687E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB832D862A2B62C60043687E /* MainView.swift */; };
 		EB832D8B2A2B7B220043687E /* PrivateKeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB832D8A2A2B7B220043687E /* PrivateKeyViewController.swift */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB354FE12A2CC2F3000915CE /* MnemonicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicViewController.swift; sourceTree = "<group>"; };
+		EB354FE32A2CC348000915CE /* MnemonicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicView.swift; sourceTree = "<group>"; };
 		EB832D862A2B62C60043687E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		EB832D8A2A2B7B220043687E /* PrivateKeyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateKeyViewController.swift; sourceTree = "<group>"; };
 		EB832D8C2A2B7B510043687E /* PrivateKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateKeyView.swift; sourceTree = "<group>"; };
@@ -89,6 +93,7 @@
 			children = (
 				EB98B9F62A29088D00079A6C /* MainViewController.swift */,
 				EB832D8A2A2B7B220043687E /* PrivateKeyViewController.swift */,
+				EB354FE12A2CC2F3000915CE /* MnemonicViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -98,6 +103,7 @@
 			children = (
 				EB832D862A2B62C60043687E /* MainView.swift */,
 				EB832D8C2A2B7B510043687E /* PrivateKeyView.swift */,
+				EB354FE32A2CC348000915CE /* MnemonicView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -296,6 +302,8 @@
 				EB832D872A2B62C60043687E /* MainView.swift in Sources */,
 				EB98B9F32A29088D00079A6C /* AppDelegate.swift in Sources */,
 				EB98B9F52A29088D00079A6C /* SceneDelegate.swift in Sources */,
+				EB354FE22A2CC2F3000915CE /* MnemonicViewController.swift in Sources */,
+				EB354FE42A2CC348000915CE /* MnemonicView.swift in Sources */,
 				EB832D8B2A2B7B220043687E /* PrivateKeyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
