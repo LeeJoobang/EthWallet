@@ -7,9 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB354FE22A2CC2F3000915CE /* MnemonicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB354FE12A2CC2F3000915CE /* MnemonicViewController.swift */; };
+		EB354FE42A2CC348000915CE /* MnemonicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB354FE32A2CC348000915CE /* MnemonicView.swift */; };
+		EB354FE62A2CC951000915CE /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB354FE52A2CC951000915CE /* AddressViewController.swift */; };
+		EB354FEA2A2CCB66000915CE /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB354FE92A2CCB66000915CE /* WalletViewController.swift */; };
+		EB354FEC2A2CCB8A000915CE /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB354FEB2A2CCB8A000915CE /* TransactionViewController.swift */; };
+		EB354FF02A2CCBB5000915CE /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB354FEF2A2CCBB5000915CE /* WalletView.swift */; };
+		EB354FF22A2CCBC3000915CE /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB354FF12A2CCBC3000915CE /* TransactionView.swift */; };
+		EB832D852A2B62990043687E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EB832D842A2B62990043687E /* SnapKit */; };
+		EB832D872A2B62C60043687E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB832D862A2B62C60043687E /* MainView.swift */; };
+		EB832D8B2A2B7B220043687E /* PrivateKeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB832D8A2A2B7B220043687E /* PrivateKeyViewController.swift */; };
+		EB832D8D2A2B7B510043687E /* PrivateKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB832D8C2A2B7B510043687E /* PrivateKeyView.swift */; };
 		EB98B9F32A29088D00079A6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB98B9F22A29088D00079A6C /* AppDelegate.swift */; };
 		EB98B9F52A29088D00079A6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB98B9F42A29088D00079A6C /* SceneDelegate.swift */; };
-		EB98B9F72A29088D00079A6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB98B9F62A29088D00079A6C /* ViewController.swift */; };
+		EB98B9F72A29088D00079A6C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB98B9F62A29088D00079A6C /* MainViewController.swift */; };
 		EB98B9FA2A29088D00079A6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB98B9F82A29088D00079A6C /* Main.storyboard */; };
 		EB98B9FC2A29089000079A6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB98B9FB2A29089000079A6C /* Assets.xcassets */; };
 		EB98B9FF2A29089000079A6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB98B9FD2A29089000079A6C /* LaunchScreen.storyboard */; };
@@ -36,10 +47,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB354FE12A2CC2F3000915CE /* MnemonicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicViewController.swift; sourceTree = "<group>"; };
+		EB354FE32A2CC348000915CE /* MnemonicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicView.swift; sourceTree = "<group>"; };
+		EB354FE52A2CC951000915CE /* AddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
+		EB354FE92A2CCB66000915CE /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		EB354FEB2A2CCB8A000915CE /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		EB354FEF2A2CCBB5000915CE /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		EB354FF12A2CCBC3000915CE /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		EB832D862A2B62C60043687E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EB832D8A2A2B7B220043687E /* PrivateKeyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateKeyViewController.swift; sourceTree = "<group>"; };
+		EB832D8C2A2B7B510043687E /* PrivateKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateKeyView.swift; sourceTree = "<group>"; };
 		EB98B9EF2A29088D00079A6C /* EthWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EthWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB98B9F22A29088D00079A6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB98B9F42A29088D00079A6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EB98B9F62A29088D00079A6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB98B9F62A29088D00079A6C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		EB98B9F92A29088D00079A6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB98B9FB2A29089000079A6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB98B9FE2A29089000079A6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB832D852A2B62990043687E /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +98,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB354FE72A2CCAF0000915CE /* create */ = {
+			isa = PBXGroup;
+			children = (
+				EB354FE12A2CC2F3000915CE /* MnemonicViewController.swift */,
+				EB832D8A2A2B7B220043687E /* PrivateKeyViewController.swift */,
+				EB98B9F62A29088D00079A6C /* MainViewController.swift */,
+			);
+			path = create;
+			sourceTree = "<group>";
+		};
+		EB354FE82A2CCB51000915CE /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				EB354FE52A2CC951000915CE /* AddressViewController.swift */,
+				EB354FE92A2CCB66000915CE /* WalletViewController.swift */,
+				EB354FEB2A2CCB8A000915CE /* TransactionViewController.swift */,
+			);
+			path = tabBar;
+			sourceTree = "<group>";
+		};
+		EB354FED2A2CCB99000915CE /* create */ = {
+			isa = PBXGroup;
+			children = (
+				EB832D862A2B62C60043687E /* MainView.swift */,
+				EB832D8C2A2B7B510043687E /* PrivateKeyView.swift */,
+				EB354FE32A2CC348000915CE /* MnemonicView.swift */,
+			);
+			path = create;
+			sourceTree = "<group>";
+		};
+		EB354FEE2A2CCBAB000915CE /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				EB354FEF2A2CCBB5000915CE /* WalletView.swift */,
+				EB354FF12A2CCBC3000915CE /* TransactionView.swift */,
+			);
+			path = tabBar;
+			sourceTree = "<group>";
+		};
+		EB832D882A2B6B6D0043687E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB354FE82A2CCB51000915CE /* tabBar */,
+				EB354FE72A2CCAF0000915CE /* create */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EB832D892A2B6B760043687E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB354FEE2A2CCBAB000915CE /* tabBar */,
+				EB354FED2A2CCB99000915CE /* create */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		EB98B9E62A29088D00079A6C = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +178,10 @@
 		EB98B9F12A29088D00079A6C /* EthWallet */ = {
 			isa = PBXGroup;
 			children = (
+				EB832D892A2B6B760043687E /* View */,
+				EB832D882A2B6B6D0043687E /* Controller */,
 				EB98B9F22A29088D00079A6C /* AppDelegate.swift */,
 				EB98B9F42A29088D00079A6C /* SceneDelegate.swift */,
-				EB98B9F62A29088D00079A6C /* ViewController.swift */,
 				EB98B9F82A29088D00079A6C /* Main.storyboard */,
 				EB98B9FB2A29089000079A6C /* Assets.xcassets */,
 				EB98B9FD2A29089000079A6C /* LaunchScreen.storyboard */,
@@ -143,6 +223,9 @@
 			dependencies = (
 			);
 			name = EthWallet;
+			packageProductDependencies = (
+				EB832D842A2B62990043687E /* SnapKit */,
+			);
 			productName = EthWallet;
 			productReference = EB98B9EF2A29088D00079A6C /* EthWallet.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +298,9 @@
 				Base,
 			);
 			mainGroup = EB98B9E62A29088D00079A6C;
+			packageReferences = (
+				EB832D832A2B62990043687E /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = EB98B9F02A29088D00079A6C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +344,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB98B9F72A29088D00079A6C /* ViewController.swift in Sources */,
+				EB354FE62A2CC951000915CE /* AddressViewController.swift in Sources */,
+				EB832D8D2A2B7B510043687E /* PrivateKeyView.swift in Sources */,
+				EB98B9F72A29088D00079A6C /* MainViewController.swift in Sources */,
+				EB832D872A2B62C60043687E /* MainView.swift in Sources */,
 				EB98B9F32A29088D00079A6C /* AppDelegate.swift in Sources */,
 				EB98B9F52A29088D00079A6C /* SceneDelegate.swift in Sources */,
+				EB354FE22A2CC2F3000915CE /* MnemonicViewController.swift in Sources */,
+				EB354FF22A2CCBC3000915CE /* TransactionView.swift in Sources */,
+				EB354FE42A2CC348000915CE /* MnemonicView.swift in Sources */,
+				EB354FEC2A2CCB8A000915CE /* TransactionViewController.swift in Sources */,
+				EB832D8B2A2B7B220043687E /* PrivateKeyViewController.swift in Sources */,
+				EB354FEA2A2CCB66000915CE /* WalletViewController.swift in Sources */,
+				EB354FF02A2CCBB5000915CE /* WalletView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +698,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB832D832A2B62990043687E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB832D842A2B62990043687E /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB832D832A2B62990043687E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EB98B9E72A29088D00079A6C /* Project object */;
 }
