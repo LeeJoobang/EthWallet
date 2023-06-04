@@ -17,6 +17,7 @@ class MnemonicViewController: UIViewController{
         mnemonicView.backgroundColor = .white
         setUI()
         mnemonicView.MnemonicLabel.text = "12개 니모닉"
+        mnemonicView.cancelButton.addTarget(self, action: #selector(cancelButtonTapped), for: .touchUpInside)
     }
     
     func setUI(){
@@ -25,5 +26,9 @@ class MnemonicViewController: UIViewController{
         mnemonicView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
         }
+    }
+    
+    @objc func cancelButtonTapped(){
+        self.navigationController?.popViewController(animated: true)
     }
 }
