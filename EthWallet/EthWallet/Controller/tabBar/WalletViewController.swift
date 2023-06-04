@@ -49,8 +49,5 @@ extension WalletViewController: UITableViewDelegate, UITableViewDataSource{
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = "네트워크별 \(indexPath.row + 1)"
         return cell
-
     }
-    
-    
 }
