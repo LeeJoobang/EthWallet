@@ -27,6 +27,7 @@
 		EB98BA0A2A29089000079A6C /* EthWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB98BA092A29089000079A6C /* EthWalletTests.swift */; };
 		EB98BA142A29089000079A6C /* EthWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB98BA132A29089000079A6C /* EthWalletUITests.swift */; };
 		EB98BA162A29089000079A6C /* EthWalletUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB98BA152A29089000079A6C /* EthWalletUITestsLaunchTests.swift */; };
+		EB9F6D8C2A30E3F000E4BED0 /* web3swift in Frameworks */ = {isa = PBXBuildFile; productRef = EB9F6D8B2A30E3F000E4BED0 /* web3swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB832D852A2B62990043687E /* SnapKit in Frameworks */,
+				EB9F6D8C2A30E3F000E4BED0 /* web3swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +227,7 @@
 			name = EthWallet;
 			packageProductDependencies = (
 				EB832D842A2B62990043687E /* SnapKit */,
+				EB9F6D8B2A30E3F000E4BED0 /* web3swift */,
 			);
 			productName = EthWallet;
 			productReference = EB98B9EF2A29088D00079A6C /* EthWallet.app */;
@@ -300,6 +303,7 @@
 			mainGroup = EB98B9E62A29088D00079A6C;
 			packageReferences = (
 				EB832D832A2B62990043687E /* XCRemoteSwiftPackageReference "SnapKit" */,
+				EB9F6D8A2A30E3F000E4BED0 /* XCRemoteSwiftPackageReference "web3swift" */,
 			);
 			productRefGroup = EB98B9F02A29088D00079A6C /* Products */;
 			projectDirPath = "";
@@ -708,6 +712,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		EB9F6D8A2A30E3F000E4BED0 /* XCRemoteSwiftPackageReference "web3swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/web3swift-team/web3swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -715,6 +727,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = EB832D832A2B62990043687E /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		EB9F6D8B2A30E3F000E4BED0 /* web3swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB9F6D8A2A30E3F000E4BED0 /* XCRemoteSwiftPackageReference "web3swift" */;
+			productName = web3swift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

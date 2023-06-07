@@ -7,6 +7,7 @@
 
 import UIKit
 import SnapKit
+import web3swift
 
 class MainViewController: UIViewController {
         
